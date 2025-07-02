@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #7dc4f2;
+    border: 1px solid #1e4f85;
+    flex: 1;
+    text-align: center;
+    
+}
+
+.situado{
+    background-color: #004cba;
+    color: white;
+}
+
+.registro-container {
+  display: flex;
+  justify-content: left;
+  margin: 50px 0 0 100px;
+}
+
+.registro-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 260px;
+  background-color: #fafafa;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.registro-box h3 {
+  margin-top: 0;
+  font-size: 16px;
+  color: #333;
+  padding-left: 10px;
+  border-left: 5px solid #00bfff;
+}
+
+.form-registro label {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-registro input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-registro p {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.form-registro button {
+  margin-top: 10px;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: #2b2a2a;
+}
+
+
